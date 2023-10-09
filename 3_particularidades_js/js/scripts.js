@@ -8,3 +8,10 @@ a = 'troca de valor';
 
 
 //video 2:57
+
+
+function greet(){
+    console.log('Testando Function!');
+}
+
+//var intervalId = setInterval(greet, 2000);
