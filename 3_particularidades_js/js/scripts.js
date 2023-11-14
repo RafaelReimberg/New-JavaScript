@@ -6,7 +6,7 @@ var a = 1;
 
 a = 'troca de valor';
 
-//alert("Boto ROOOOOSA interno")
+alert("Boto ROOOOOSA externo")
 
 
 //video 2:57
