@@ -1,36 +1,40 @@
-/* Tipos de dados
+/* Strings
 
-* No JavaScript temos diversos tipos de dados, os mais comuns e utilizados são:
-* Number, String, Boolean, null e undefined, Object;
-* Podemos verificar o tipo do dado com o operado typeof;
-
-    Tipos de dados: Number
-
-* O Number é tipo de dados para números;
-* Possui três valores simbólicos: +Infinity, -Infinity e NaN;
-* Não existe um tipo definido para inteiros, todos número é um Number;
-* Vamos fazer alguns testes!
-
+* String é o tipo de dados para textos;
+* AS strings podem ser escritas com aspas simples e duplas;
+* Um número entre aspas pode ser considerado uma string;
+* É possível também concatenar strings com o +;
+* Vamos ver isso na prática!
 
 */
+var nome = "Rafael";
+var sobrenome = "Reimberg";
 
+var nomeCompleto = nome + " " + sobrenome;
 
-var numero = 5;
+console.log(nome);
+console.log(typeof nome);
 
-console.log(numero);
-console.log(typeof numero);
+console.log(typeof "ASD");
 
-var float = 5.32;
+console.log(nomeCompleto);
+console.log(typeof nomeCompleto);
 
-console.log(float);
-console.log(typeof float);
+console.log(typeof "5.292929");
 
-var textoComNumero = "523";
+var frase = 'Esta é uma frase complexa';
 
-console.log(textoComNumero);
-console.log(typeof textoComNumero);
+console.log(frase);
+console.log(typeof frase);
 
-console.log(NaN);
-console.log(typeof NaN);
-console.log(typeof +Infinity);
-console.log(typeof -Infinity);
+console.log(nome + ', ' + frase);
+console.log(typeof nome + ', ' + typeof frase);
+
+document.write("<strong>Oi, 'Rafael'<br><hr></strong>");
+document.write('<strong> Ele diz: "Rafael"<br><hr></strong>');
+
+console.log("Este número: " + "432");
+
+document.write("Este número: " + "<strong>'1987'</strong>");
+
+console.log("Este número: " + nome);
