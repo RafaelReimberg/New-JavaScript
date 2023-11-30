@@ -21,6 +21,12 @@ console.log(obj.profissao);
 
 console.log("O meu nome é " + obj.nome);
 
-obj.nome = "Gabriel";
+obj = {nome: "Gabriel",
+       idade: 06,
+        profissao: "Estudante",
+        estaTranalhando: false,
+ };
 
 console.log(obj.nome);
+
+console.log(obj);
