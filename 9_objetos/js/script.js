@@ -22,7 +22,7 @@ console.log(obj.profissao);
 console.log("O meu nome é " + obj.nome);
 
 obj = {nome: "Gabriel",
-       idade: 06,
+        idade: 6,
         profissao: "Estudante",
         estaTranalhando: false,
  };
@@ -30,3 +30,8 @@ obj = {nome: "Gabriel",
 console.log(obj.nome);
 
 console.log(obj);
+
+obj.graduacao = "Administrador de Rede";
+
+console.log(obj);
+
