@@ -8,7 +8,9 @@
 
 // Hoisting - içamento - Hoisting está sempre inicializada no JavaScript e sempre vem no top do codigo. 
 console.log(sobrenome);
+document.write(sobrenome + '<br>variável esta criada mas não tem valor, por isso retorna undefined.<hr></hr>');
 console.log(numero);
+document.write(numero + '<br>Hoisting está sempre inicializada no JavaScript e sempre vem no top do codigo. pois a variavel esta declarada mais abaixo e como o hoisting entende-se undefined por começa do top as chamadas.<hr></hr>');
 
 //------------------------------------------------
 
