@@ -7,7 +7,7 @@
 */
 
 var idade = 31;
-var nome =  "Rafaell";
+var nome =  "Rafael";
 
 if(nome == "Rafael" || idade > 36){
     console.log("Você pode soltar pipa :)");
@@ -16,5 +16,14 @@ if(nome == "Rafael" || idade > 36){
     console.log("Não pode ir soltar pipa. (OBS. Muie barrou).");
 }
 
+if(nome == "Rafael" && 15 > 20 || 10 == 9){
+    console.log("testando");
+}
 
-/// 3:40
+
+if((nome == "Rafael" || 15 > 14) && 10 == 10){
+    console.log("testando2");
+}
+else {
+    console.log("Não entrou");
+}
